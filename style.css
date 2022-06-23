@@ -1,0 +1,165 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@700&display=swap');
+
+
+.box1{
+    
+    /* border: 2px solid black; */
+    height: 350px;
+    width: 100%;
+    display: grid;
+    grid-template-columns: auto auto;
+    font-family: 'League Spartan', sans-serif;
+  
+}
+
+h1{
+    margin-left: 150px;
+    margin-top: 50px;
+    width: 40%;
+    font-size: 45px;
+    color: hsl(300, 43%, 22%);   
+    font-weight: bolder;
+
+    
+}
+p{
+    margin-left: 150px;
+    width: 40%;
+    font-size: 20px;
+    color:   hsl(303, 10%, 53%)
+    
+}
+
+
+.ratings{
+    margin-top: 45px;
+}
+
+.r1,.r2,.r3{
+    margin-right: 150px;
+    margin-top: 25px;
+    width: 70%;
+    /* border: 2px solid black; */
+    height: 45px;
+    line-height: 45px;
+    background-color: hsl(300, 24%, 96%);
+    color: hsl(300, 43%, 22%);   
+    font-weight: bolder;
+    border-radius: 5px;
+}
+
+.r2{
+    margin-left: 40px;
+}
+
+.r3{
+    margin-left: 80px;
+}
+
+
+
+
+.box2{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    font-family: 'League Spartan', sans-serif;
+    
+    
+}
+
+.main1{
+    /* border: 2px solid black; */
+    height: 200px;
+    width: 300px;
+    margin-left: 150px;
+    background-color: hsl(300, 43%, 22%);
+    color: white;
+    border-radius: 10px;
+    
+    
+}
+
+.main2{
+    /* border: 2px solid black; */
+    height: 200px;
+    width: 300px;
+    background-color: hsl(300, 43%, 22%);
+    color: white;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+.main3{
+    /* border: 2px solid black; */
+    height: 200px;
+    width: 300px;
+    background-color: hsl(300, 43%, 22%);
+    color: white;
+     border-radius: 10px;
+     margin-top: 40px;
+}
+
+
+h5{
+    text-align: center;
+    font-weight: 100;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.img{
+    border-radius: 100%;
+    width: 50px;
+    margin-left: 20px;
+}
+
+span{
+    color: hsl(333, 80%, 67%);
+}
+
+
+@media screen and (max-width:600px) {
+   .box1{
+       display: block;
+   }
+
+   .main1{
+       margin-top: 300px;
+       margin-left: 80px;
+      
+   }
+
+   .main2{
+    margin-left: 80px;
+   
+}
+.main3{
+    margin-left: 80px;
+   
+}
+
+h1{
+    width: 50%;
+}
+
+p{
+    width: 50%;
+}
+
+.r1,.r2,.r3{
+    margin-left: 0;
+    margin-left: 70px;
+}
+   .box2{
+       display: block;
+   }
+}
+
+
+.Footer {
+    font-size: 11px;
+    text-align: center;
+  }
+  .Footer a {
+    color: hsl(228, 45%, 44%);
+  }
